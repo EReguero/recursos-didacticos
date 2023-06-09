@@ -17,7 +17,7 @@ const CardCustom = ({
   onPress = () => {},
 }) => {
   return (
-    <Card onPress={onPress} isPressable={isPressable}>
+    <Card onClick={onPress} isPressable={isPressable}>
       <Card.Body css={{ p: 0, borderBottom: "1px solid black" }}>
         <Card.Image
           src={img}
