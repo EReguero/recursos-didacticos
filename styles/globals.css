@@ -1,0 +1,35 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#__next{
+  height: 100vh;
+  
+}
+
+main{
+  height: calc(100vh);
+  background-image: url('/fondotransparente.jpg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+}
+
+p{
+  color: black;
+}
