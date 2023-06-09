@@ -107,18 +107,26 @@ function MyApp({ Component, pageProps }) {
                 }}
               >
                 <Dropdown.Item key="usage_metrics">
-                  Armonizaciones de canciones populares
+                  <Navbar.Link href="/ejemplos/armonizaciones">
+                    Armonizaciones de canciones populares
+                  </Navbar.Link>
                 </Dropdown.Item>
                 <Dropdown.Item key="production_ready">
-                  Bases electronicas de canciones populares
+                  <Navbar.Link href="/ejemplos/bases-electronicas">
+                    Bases electronicas de canciones populares
+                  </Navbar.Link>
                 </Dropdown.Item>
 
                 <Dropdown.Item key="supreme_support">
-                  Ejercicios de la asignatura
+                  <Navbar.Link href="/ejemplos/ejercicios">
+                    Ejercicios de la asignatura
+                  </Navbar.Link>
                 </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
-            <Navbar.Link href="#">Juegos</Navbar.Link>
+            <Navbar.Link href="https://create.kahoot.it/share/repaso-de-conceptos-armonicos/c8bde697-d5c7-48aa-8b2b-978baf7f3dba">
+              Juegos
+            </Navbar.Link>
           </Navbar.Content>
           <Navbar.Content></Navbar.Content>
         </Navbar>
