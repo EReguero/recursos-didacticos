@@ -130,7 +130,9 @@ const Video = () => {
     window.location = "/404";
   }
 
-  return <BasicYTList unidadData={unidadData} name={name} />;
+  return (
+    <BasicYTList unidadData={unidadData} name={name} sectionName={"Videos"} />
+  );
 };
 
 export default Video;

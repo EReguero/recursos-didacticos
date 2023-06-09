@@ -4,7 +4,7 @@ import Head from "next/head";
 
 const BasicYTList = ({ name, unidadData, sectionName }) => {
   return (
-    <Container Container css={{ paddingTop: "10px" }}>
+    <Container Container css={{ paddingTop: "5px" }}>
       <Head>
         <title>
           {sectionName} - Unidad didáctica {name}
@@ -35,7 +35,6 @@ const BasicYTList = ({ name, unidadData, sectionName }) => {
                   css={{ border: "1px solid black !important" }}
                 >
                   <iframe
-                    width="560"
                     height="315"
                     src={video.url}
                     title="YouTube video player"
