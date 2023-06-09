@@ -1,6 +1,9 @@
 import { Card, Text, Grid, Container } from "@nextui-org/react";
+import { useRouter } from "next/router";
 
 const BasicGridList = ({ data, redirectBase }) => {
+  const router = useRouter();
+
   return (
     <Container>
       <Grid.Container gap={2} css={{ paddingTop: "50px" }} justify="center">
@@ -13,9 +16,7 @@ const BasicGridList = ({ data, redirectBase }) => {
           >
             <Card
               isPressable
-              onPress={() =>
-                (window.location = `/${redirectBase}/${cardData.id}`)
-              }
+              onPress={() => router.push(`/${redirectBase}/${cardData.id}`)}
             >
               <Card.Body>
                 <Text css={{ fontWeight: "bold" }}>{cardData.title} </Text>
