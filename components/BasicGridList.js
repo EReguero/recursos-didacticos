@@ -16,7 +16,7 @@ const BasicGridList = ({ data, redirectBase }) => {
           >
             <Card
               isPressable
-              onPress={() => router.push(`/${redirectBase}/${cardData.id}`)}
+              onClick={() => router.push(`/${redirectBase}/${cardData.id}`)}
             >
               <Card.Body>
                 <Text css={{ fontWeight: "bold" }}>{cardData.title} </Text>
