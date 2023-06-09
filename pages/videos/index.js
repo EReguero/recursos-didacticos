@@ -1,4 +1,4 @@
-import Head from "next/dist/next-server/lib/head";
+import Head from "next/head";
 import BasicGridList from "../../components/BasicGridList";
 
 const data = [

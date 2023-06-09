@@ -1,6 +1,6 @@
 import { Collapse, Text, Grid, Container } from "@nextui-org/react";
 import CardCustom from "./card";
-import Head from "next/dist/next-server/lib/head";
+import Head from "next/head";
 
 const BasicYTList = ({ name, unidadData, sectionName }) => {
   return (
