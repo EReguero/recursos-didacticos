@@ -1,11 +1,11 @@
 import { useState, useRef } from "react";
 import "../styles/globals.css";
 import { NextUIProvider } from "@nextui-org/react";
-import { Navbar, Dropdown, Link, Text, Card, Radio } from "@nextui-org/react";
+import { Navbar, Dropdown, Link, Text, Spacer, Radio } from "@nextui-org/react";
 import MusicNoteIcon from "@mui/icons-material/MusicNote";
 
 function MyApp({ Component, pageProps }) {
-  const [variant, setVariant] = useState("static");
+  const [variant, setVariant] = useState("sticky");
   const myRefname = useRef(null);
 
   const variants = ["static", "floating", "sticky"];
@@ -13,9 +13,11 @@ function MyApp({ Component, pageProps }) {
     <NextUIProvider>
       <main>
         <Navbar isBordered variant={variant}>
+          <Navbar.Toggle showIn="xs" aria-label="toggle navigation" />
+
           <Navbar.Brand>
             <Link href="/">
-              <Text b color="inherit" hideIn="xs">
+              <Text b color="inherit">
                 Recursos Armonia
                 <MusicNoteIcon />
               </Text>
@@ -129,7 +131,45 @@ function MyApp({ Component, pageProps }) {
             </Navbar.Link>
           </Navbar.Content>
           <Navbar.Content></Navbar.Content>
+          <Navbar.Collapse showIn="xs" css={{ color: "black" }}>
+            <Navbar.CollapseItem>
+              <Link href="/">Inicio</Link>
+            </Navbar.CollapseItem>
+            <Spacer y={1} />
+            <Navbar.CollapseItem>
+              <Link href="/tutoriales"> Tutoriales</Link>
+            </Navbar.CollapseItem>
+            <Spacer y={1} />
+            <Navbar.CollapseItem>
+              <Link href="/videos"> Videos y audiciones </Link>
+            </Navbar.CollapseItem>
+            <Spacer y={1} />
+            <Navbar.CollapseItem>
+              <Link href="/ejemplos/armonizaciones">
+                Ejemplos de armonizaciones de canciones populares
+              </Link>
+            </Navbar.CollapseItem>
+            <Spacer y={1} />
+            <Navbar.CollapseItem>
+              <Link href="/ejemplos/bases-electronicas">
+                Ejemplos de bases electronicas de canciones populares
+              </Link>
+            </Navbar.CollapseItem>
+            <Spacer y={1} />
+            <Navbar.CollapseItem>
+              <Link href="/ejemplos/ejercicios">
+                Ejemplos de ejercicios de la asignatura
+              </Link>
+            </Navbar.CollapseItem>
+            <Spacer y={1} />
+            <Navbar.CollapseItem>
+              <Link href="https://create.kahoot.it/share/repaso-de-conceptos-armonicos/c8bde697-d5c7-48aa-8b2b-978baf7f3dba">
+                Juegos
+              </Link>
+            </Navbar.CollapseItem>
+          </Navbar.Collapse>
         </Navbar>
+
         <Component {...pageProps} />
       </main>
     </NextUIProvider>
