@@ -6,8 +6,8 @@
     "node": "18.x"
   },
   "scripts": {
-    "dev": "next dev",
-    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && next build",
+    "dev": "export NODE_OPTIONS=--openssl-legacy-provider; next dev",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider; next build",
     "start": "next start",
     "lint": "next lint"
   },
