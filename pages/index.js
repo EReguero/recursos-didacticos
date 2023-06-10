@@ -107,7 +107,7 @@ export default function Home() {
     {
       title: "Juegos",
       img: "/juegos.jpg",
-      onClick: () =>
+      onPress: () =>
         (location.href =
           "https://create.kahoot.it/share/repaso-de-conceptos-armonicos/c8bde697-d5c7-48aa-8b2b-978baf7f3dba"),
       subtext: "Ir →",
