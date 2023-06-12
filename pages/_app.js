@@ -17,9 +17,10 @@ function MyApp({ Component, pageProps }) {
 
           <Navbar.Brand>
             <Link href="/">
+              <MusicNoteIcon style={{ marginRight: "10px" }} />
               <Text b color="inherit">
-                Recursos Armonia
-                <MusicNoteIcon />
+                Recursos Armonía <br />
+                José Ubago
               </Text>
             </Link>
           </Navbar.Brand>
@@ -131,6 +132,8 @@ function MyApp({ Component, pageProps }) {
             </Navbar.Link>
           </Navbar.Content>
           <Navbar.Content></Navbar.Content>
+          <Navbar.Content></Navbar.Content>
+
           <Navbar.Collapse showIn="xs" css={{ color: "black" }}>
             <Navbar.CollapseItem>
               <Link href="/">Inicio</Link>
