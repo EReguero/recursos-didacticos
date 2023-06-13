@@ -63,6 +63,9 @@ function MyApp({ Component, pageProps }) {
                       w: "100%",
                       fontWeight: "$semibold",
                     },
+                    "& .nextui-navbar-item": {
+                      justifyContent: "center",
+                    },
                   },
                 }}
               >
@@ -105,6 +108,9 @@ function MyApp({ Component, pageProps }) {
                     "& .nextui-dropdown-item-content": {
                       w: "100%",
                       fontWeight: "$semibold",
+                    },
+                    "& .nextui-navbar-item": {
+                      justifyContent: "center",
                     },
                   },
                 }}
