@@ -66,11 +66,11 @@ function MyApp({ Component, pageProps }) {
                   },
                 }}
               >
-                <Dropdown.Item key="usage_metrics">
-                  <Navbar.Link href="/tutoriales"> Tutoriales</Navbar.Link>
-                </Dropdown.Item>
-                <Dropdown.Item key="production_ready">
+                <Dropdown.Item key="videos">
                   <Navbar.Link href="/videos"> Videos y audiciones</Navbar.Link>
+                </Dropdown.Item>
+                <Dropdown.Item key="tutoriales">
+                  <Navbar.Link href="/tutoriales"> Tutoriales</Navbar.Link>
                 </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
