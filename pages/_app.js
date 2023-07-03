@@ -133,9 +133,56 @@ function MyApp({ Component, pageProps }) {
                 </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
-            <Navbar.Link href="https://create.kahoot.it/share/repaso-de-conceptos-armonicos/c8bde697-d5c7-48aa-8b2b-978baf7f3dba">
-              Juegos
-            </Navbar.Link>
+            <Dropdown isBordered>
+              <Navbar.Item>
+                <Dropdown.Button
+                  auto
+                  light
+                  css={{
+                    px: 0,
+                    dflex: "center",
+                    svg: { pe: "none" },
+                  }}
+                  ripple={false}
+                >
+                  Juegos
+                </Dropdown.Button>
+              </Navbar.Item>
+              <Dropdown.Menu
+                aria-label="ACME features"
+                css={{
+                  $$dropdownMenuWidth: "340px",
+                  $$dropdownItemHeight: "70px",
+                  "& .nextui-dropdown-item": {
+                    py: "$4",
+                    // dropdown item left icon
+                    svg: {
+                      color: "$secondary",
+                      mr: "$4",
+                    },
+                    // dropdown item title
+                    "& .nextui-dropdown-item-content": {
+                      w: "100%",
+                      fontWeight: "$semibold",
+                    },
+                    "& .nextui-navbar-item": {
+                      justifyContent: "center",
+                    },
+                  },
+                }}
+              >
+                <Dropdown.Item key="usage_metrics">
+                  <Navbar.Link href="https://create.kahoot.it/share/repaso-de-armonia/2aa97ac1-7e82-402f-8024-c01c9b498bd0">
+                    Juegos unidad didáctica 1
+                  </Navbar.Link>
+                </Dropdown.Item>
+                <Dropdown.Item key="production_ready">
+                  <Navbar.Link href="https://es.educaplay.com/recursos-educativos/15454336-repaso_final_jose_ubago.html">
+                    Juegos unidad didáctica 12
+                  </Navbar.Link>
+                </Dropdown.Item>
+              </Dropdown.Menu>
+            </Dropdown>
           </Navbar.Content>
           <Navbar.Content></Navbar.Content>
           <Navbar.Content></Navbar.Content>
@@ -172,8 +219,14 @@ function MyApp({ Component, pageProps }) {
             </Navbar.CollapseItem>
             <Spacer y={1} />
             <Navbar.CollapseItem>
-              <Link href="https://create.kahoot.it/share/repaso-de-conceptos-armonicos/c8bde697-d5c7-48aa-8b2b-978baf7f3dba">
-                Juegos
+              <Link href="https://create.kahoot.it/share/repaso-de-armonia/2aa97ac1-7e82-402f-8024-c01c9b498bd0">
+                Juegos unidad didáctica 1
+              </Link>
+            </Navbar.CollapseItem>
+            <Spacer y={1} />
+            <Navbar.CollapseItem>
+              <Link href="https://es.educaplay.com/recursos-educativos/15454336-repaso_final_jose_ubago.html">
+                Juegos unidad didáctica 12
               </Link>
             </Navbar.CollapseItem>
           </Navbar.Collapse>

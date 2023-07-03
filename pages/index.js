@@ -106,11 +106,41 @@ export default function Home() {
     },
     {
       title: "Juegos",
+      isPressable: false,
       img: "/juegos.jpg",
-      onPress: () =>
-        (location.href =
-          "https://create.kahoot.it/share/repaso-de-conceptos-armonicos/c8bde697-d5c7-48aa-8b2b-978baf7f3dba"),
-      subtext: "Ir →",
+      children: (
+        <Card.Footer css={{ justifyItems: "flex-start", paddingTop: 0 }}>
+          <Container>
+            <Link href="https://create.kahoot.it/share/repaso-de-armonia/2aa97ac1-7e82-402f-8024-c01c9b498bd0">
+              <Row
+                css={{ marginTop: "15px", ...hover }}
+                justify="space-between"
+                align="center"
+              >
+                <Text className="title">Juegos unidad didáctica 1</Text>
+
+                <Text
+                  css={{
+                    textDecoration: "none !important",
+                  }}
+                >
+                  →
+                </Text>
+              </Row>
+            </Link>
+            <Link href="https://es.educaplay.com/recursos-educativos/15454336-repaso_final_jose_ubago.html">
+              <Row
+                css={{ marginTop: "15px", ...hover }}
+                justify="space-between"
+                align="center"
+              >
+                <Text className="title">Juegos unidad didáctica 12</Text>
+                <Text>→</Text>
+              </Row>
+            </Link>
+          </Container>
+        </Card.Footer>
+      ),
     },
   ];
 
