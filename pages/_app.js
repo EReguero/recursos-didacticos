@@ -43,7 +43,7 @@ function MyApp({ Component, pageProps }) {
                   }}
                   ripple={false}
                 >
-                  Videos
+                  Vídeos
                 </Dropdown.Button>
               </Navbar.Item>
               <Dropdown.Menu
@@ -70,7 +70,7 @@ function MyApp({ Component, pageProps }) {
                 }}
               >
                 <Dropdown.Item key="videos">
-                  <Navbar.Link href="/videos"> Videos y audiciones</Navbar.Link>
+                  <Navbar.Link href="/videos"> Vídeos y audiciones</Navbar.Link>
                 </Dropdown.Item>
                 <Dropdown.Item key="tutoriales">
                   <Navbar.Link href="/tutoriales"> Tutoriales</Navbar.Link>
@@ -122,7 +122,7 @@ function MyApp({ Component, pageProps }) {
                 </Dropdown.Item>
                 <Dropdown.Item key="production_ready">
                   <Navbar.Link href="/ejemplos/bases-electronicas">
-                    Bases electronicas de canciones populares
+                    Bases electrónicas de canciones populares
                   </Navbar.Link>
                 </Dropdown.Item>
 
@@ -197,7 +197,7 @@ function MyApp({ Component, pageProps }) {
             </Navbar.CollapseItem>
             <Spacer y={1} />
             <Navbar.CollapseItem>
-              <Link href="/videos"> Videos y audiciones </Link>
+              <Link href="/videos"> Vídeos y audiciones </Link>
             </Navbar.CollapseItem>
             <Spacer y={1} />
             <Navbar.CollapseItem>
@@ -208,7 +208,7 @@ function MyApp({ Component, pageProps }) {
             <Spacer y={1} />
             <Navbar.CollapseItem>
               <Link href="/ejemplos/bases-electronicas">
-                Ejemplos de bases electronicas de canciones populares
+                Ejemplos de bases electrónicas de canciones populares
               </Link>
             </Navbar.CollapseItem>
             <Spacer y={1} />

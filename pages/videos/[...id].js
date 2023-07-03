@@ -131,7 +131,7 @@ const Video = () => {
   }
 
   return (
-    <BasicYTList unidadData={unidadData} name={name} sectionName={"Videos"} />
+    <BasicYTList unidadData={unidadData} name={name} sectionName={"Vídeos"} />
   );
 };
 

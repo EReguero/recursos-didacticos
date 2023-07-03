@@ -16,7 +16,7 @@ export default function Home() {
   };
   const data = [
     {
-      title: "Videos",
+      title: "Vídeos",
       isPressable: false,
       img: "/video.jpg",
       children: (
@@ -38,7 +38,7 @@ export default function Home() {
                 justify="space-between"
                 align="center"
               >
-                <Text className="title">Videos y audiciones</Text>
+                <Text className="title">Vídeos y audiciones</Text>
                 <Text
                   css={{
                     textDecoration: "none !important",
@@ -78,7 +78,7 @@ export default function Home() {
                 align="center"
               >
                 <Text className="title">
-                  Bases electronicas de canciones populares
+                  Bases electrónicas de canciones populares
                 </Text>
 
                 <Text

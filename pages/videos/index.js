@@ -43,9 +43,9 @@ const Video = () => {
   return (
     <>
       <Head>
-        <title> Recursos Armonia - Videos </title>
+        <title> Recursos Armonia - Vídeos </title>
       </Head>
-      <BasicGridList sectionName="Videos" data={data} redirectBase="videos" />
+      <BasicGridList sectionName="Vídeos" data={data} redirectBase="videos" />
     </>
   );
 };
