@@ -173,12 +173,12 @@ function MyApp({ Component, pageProps }) {
               >
                 <Dropdown.Item key="usage_metrics">
                   <Navbar.Link href="https://create.kahoot.it/share/repaso-de-armonia/2aa97ac1-7e82-402f-8024-c01c9b498bd0">
-                    Juegos unidad didáctica 1
+                    Juegos Unidad Didáctica 1
                   </Navbar.Link>
                 </Dropdown.Item>
                 <Dropdown.Item key="production_ready">
                   <Navbar.Link href="https://es.educaplay.com/recursos-educativos/15454336-repaso_final_jose_ubago.html">
-                    Juegos unidad didáctica 12
+                    Juegos Unidad Didáctica 12
                   </Navbar.Link>
                 </Dropdown.Item>
               </Dropdown.Menu>
@@ -220,13 +220,13 @@ function MyApp({ Component, pageProps }) {
             <Spacer y={1} />
             <Navbar.CollapseItem>
               <Link href="https://create.kahoot.it/share/repaso-de-armonia/2aa97ac1-7e82-402f-8024-c01c9b498bd0">
-                Juegos unidad didáctica 1
+                Juegos Unidad Didáctica 1
               </Link>
             </Navbar.CollapseItem>
             <Spacer y={1} />
             <Navbar.CollapseItem>
               <Link href="https://es.educaplay.com/recursos-educativos/15454336-repaso_final_jose_ubago.html">
-                Juegos unidad didáctica 12
+                Juegos Unidad Didáctica 12
               </Link>
             </Navbar.CollapseItem>
           </Navbar.Collapse>

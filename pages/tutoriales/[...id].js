@@ -3,7 +3,7 @@ import BasicYTList from "../../components/BasicYTList";
 
 const data = {
   "unidad-2": {
-    title: "Unidad didáctica 2",
+    title: "Unidad Didáctica 2",
     videos: [
       {
         title: "Daw gratuitos",
@@ -16,7 +16,7 @@ const data = {
     ],
   },
   "unidad-3": {
-    title: "Unidad didáctica 3",
+    title: "Unidad Didáctica 3",
     videos: [
       {
         title: "Reaper",
@@ -25,7 +25,7 @@ const data = {
     ],
   },
   "unidad-4": {
-    title: "Unidad didáctica 4",
+    title: "Unidad Didáctica 4",
     videos: [
       {
         title: "Bandlab",
@@ -34,7 +34,7 @@ const data = {
     ],
   },
   "unidad-6": {
-    title: "Unidad didáctica 6",
+    title: "Unidad Didáctica 6",
     videos: [
       {
         title: "Musescore",

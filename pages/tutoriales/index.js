@@ -3,19 +3,19 @@ import BasicGridList from "../../components/BasicGridList";
 
 const data = [
   {
-    title: "Unidad didáctica 2",
+    title: "Unidad Didáctica 2",
     id: "unidad-2",
   },
   {
-    title: "Unidad didáctica 3",
+    title: "Unidad Didáctica 3",
     id: "unidad-3",
   },
   {
-    title: "Unidad didáctica 4",
+    title: "Unidad Didáctica 4",
     id: "unidad-4",
   },
   {
-    title: "Unidad didáctica 6",
+    title: "Unidad Didáctica 6",
     id: "unidad-6",
   },
 ];

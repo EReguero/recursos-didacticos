@@ -3,7 +3,7 @@ import BasicYTList from "../../components/BasicYTList";
 
 const data = {
   "unidad-2": {
-    title: "Unidad didáctica 2",
+    title: "Unidad Didáctica 2",
     videos: [
       {
         title: "La mosca",
@@ -16,7 +16,7 @@ const data = {
     ],
   },
   "unidad-3": {
-    title: "Unidad didáctica 3",
+    title: "Unidad Didáctica 3",
     videos: [
       {
         title: "Coral J. S. Bach Cantata BWV 4",
@@ -25,7 +25,7 @@ const data = {
     ],
   },
   "unidad-4": {
-    title: "Unidad didáctica 4",
+    title: "Unidad Didáctica 4",
     videos: [
       {
         title: "Rito y Geografía del Cante RTVE",
@@ -38,7 +38,7 @@ const data = {
     ],
   },
   "unidad-7": {
-    title: "Unidad didáctica 7",
+    title: "Unidad Didáctica 7",
     videos: [
       {
         title: "Los Reyes de la Baraja",
@@ -47,7 +47,7 @@ const data = {
     ],
   },
   "unidad-8": {
-    title: "Unidad didáctica 8",
+    title: "Unidad Didáctica 8",
     videos: [
       {
         title: "Soleá",
@@ -72,7 +72,7 @@ const data = {
     ],
   },
   "unidad-9": {
-    title: "Unidad didáctica 9",
+    title: "Unidad Didáctica 9",
     videos: [
       {
         title: "Anda Jaleo",
@@ -85,7 +85,7 @@ const data = {
     ],
   },
   "unidad-10": {
-    title: "Unidad didáctica 10",
+    title: "Unidad Didáctica 10",
     videos: [
       {
         title: "Los Pelegrinitos",
@@ -98,7 +98,7 @@ const data = {
     ],
   },
   "unidad-11": {
-    title: "Unidad didáctica 11",
+    title: "Unidad Didáctica 11",
     videos: [
       {
         title: "Zorongo Gitano",
@@ -111,7 +111,7 @@ const data = {
     ],
   },
   "unidad-12": {
-    title: "Unidad didáctica 12",
+    title: "Unidad Didáctica 12",
     videos: [
       {
         title: "La Reja",

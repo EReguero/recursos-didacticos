@@ -117,7 +117,7 @@ export default function Home() {
                 justify="space-between"
                 align="center"
               >
-                <Text className="title">Juegos unidad didáctica 1</Text>
+                <Text className="title">Juegos Unidad Didáctica 1</Text>
 
                 <Text
                   css={{
@@ -134,7 +134,7 @@ export default function Home() {
                 justify="space-between"
                 align="center"
               >
-                <Text className="title">Juegos unidad didáctica 12</Text>
+                <Text className="title">Juegos Unidad Didáctica 12</Text>
                 <Text>→</Text>
               </Row>
             </Link>

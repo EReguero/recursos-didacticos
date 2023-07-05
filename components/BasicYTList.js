@@ -7,7 +7,7 @@ const BasicYTList = ({ name, unidadData, sectionName }) => {
     <Container Container css={{ paddingTop: "5px" }}>
       <Head>
         <title>
-          {sectionName} - Unidad didáctica {name}
+          {sectionName} - Unidad Didáctica {name}
         </title>
       </Head>
       <Grid.Container gap={2} css={{ paddingTop: "50px" }} justify="center">
